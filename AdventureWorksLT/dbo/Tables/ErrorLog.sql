@@ -8,6 +8,7 @@
     [ErrorProcedure] NVARCHAR (126)  NULL,
     [ErrorLine]      INT             NULL,
     [ErrorMessage]   NVARCHAR (4000) NOT NULL,
+    [UserID] INT NULL, 
     CONSTRAINT [PK_ErrorLog_ErrorLogID] PRIMARY KEY CLUSTERED ([ErrorLogID] ASC)
 );
 
